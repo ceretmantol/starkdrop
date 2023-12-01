@@ -14,7 +14,7 @@ mod MyToken {
         Ownable::InternalImpl::initializer(ref unsafe_ownable, owner);
 
         // Initialize ERC20
-        let name = 'MyToken';
+        let name = 'CereToken';
         let symbol = 'MTK';
 
         let mut unsafe_erc20 = ERC20::unsafe_new_contract_state();
